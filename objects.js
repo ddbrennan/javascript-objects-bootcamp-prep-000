@@ -8,6 +8,10 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, artistName) {
+<<<<<<< HEAD
   delete playlist[artistName]
   return playlist
+=======
+  delete
+>>>>>>> 8316c024823baebcd84654061132948fb9c73739
 }
